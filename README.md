@@ -14,7 +14,7 @@ Avalie os seguintes pontos para os dois programas:
 
 ## Implementação
 
-Você precisa implementar uma função em Python que recebe um único argumento `n` e retorna o `n`-ésimo elemento da sequência de Fibonacci. Essa função deve ser extremamente otimizada, pois trata-se de uma função crítica do projeto, a qual será chamada com alta frequência e com valores grandes de `n`. (>1000).
+Você precisa implementar uma função em Python que recebe um único argumento `n` e retorna o `n`-ésimo elemento da sequência de Fibonacci. Essa função deve ser extremamente otimizada, pois trata-se de uma função crítica do projeto, a qual será chamada com alta frequência e com valores grandes de `n`. (n <= 450).
 
 ```python
 def fibonacci(n: int) -> int:
