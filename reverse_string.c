@@ -25,9 +25,7 @@ int main(int argc, char **argv) {
   char stringReversed[50];
 
   printf("Enter the string to be reversed:\n>>");
-  fgets(string_in, sizeof(string_in), stdin);
-  // ignore '\n' sent from stdin
-  string_in[strlen(string_in) - 1] = '\0';
+  gets(string_in);
 
   reverseString(string_in, stringReversed);
   printf("reversed = '%s'\n", stringReversed);
