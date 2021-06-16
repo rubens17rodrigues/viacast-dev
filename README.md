@@ -4,7 +4,7 @@ As orientações que seguem são intencionalmente não específicas. Interprete 
 
 ## Validação de código
 
-Você recebeu dois arquivos, um com um código em C ([reverse_string.c](./reverse_string.c)), outro em Python ([shapes.py](./shapes.py)). Ambos precisam ser validados antes de serem incluídos na base de código principal de um projeto.
+Você recebeu dois arquivos, um com um código em C ([`reverse_string.c`](./reverse_string.c)), outro em Python ([`shapes.py`](./shapes.py)). Ambos precisam ser validados antes de serem incluídos na base de código principal de um projeto.
 Avalie os seguintes pontos para os dois programas:
 
 1. Em situações usuais, o código irá funcionar como esperado?
