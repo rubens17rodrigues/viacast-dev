@@ -6,18 +6,16 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def perimeter(self):
-        return 2*self.width + 2*self.height
-
     @property
     def width(self):
-        print("Getter foi chamado")
         return self._width
 
     @width.setter
     def width(self, new_width):
-        print("Setter foi chamado.")
         self._width = new_width
+    
+    def perimeter(self):
+        return 2*self.width + 2*self.height
 
     def area(self):
         return self.width*self.height
