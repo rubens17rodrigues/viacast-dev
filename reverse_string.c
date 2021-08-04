@@ -18,7 +18,6 @@ void reverseStringInPlace(char *in) {
         in[i] = in[N -1 - i];
         in[N -1 -i] = c;
     }
-    in[N] = '\0';
 }
 
 int main(int argc, char *argv[]) {
